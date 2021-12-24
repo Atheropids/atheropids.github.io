@@ -1,2 +1,3 @@
 # Random Demos and Things
-This is just a public repo hosting random demos.
+&nbsp;&nbsp;&nbsp;&nbsp;This is just a public repo hosting random demos.
+ * [Chrome Autoplay](ChromeAutoplayDemo/index.html)
