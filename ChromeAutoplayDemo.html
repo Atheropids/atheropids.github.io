@@ -8,7 +8,7 @@
       .center1
       {
         position: absolute;
-        width: 35%;
+        width: 75%;
         top: 40%;
         left: 50%;
         transform: translateX(-50%) translateY(-40%);
@@ -16,7 +16,7 @@
       .center2
       {
         position: absolute;
-        width: 35%;
+        width: 75%;
         top: 60%;
         left: 50%;
         transform: translateX(-50%) translateY(-60%);
@@ -50,20 +50,27 @@
         top: 50%;
         right: 12.5%;
         transform: translateY(-50%);
-        background-color: rgb(63, 63, 63);
+        background-color: rgb(55, 55, 55);
         border-style: solid;
         border-width: 4px;
-        border-color: rgb(95, 95, 95);
+        border-color: rgb(63, 63, 63);
         font-family: monospace;
         font-size: 16px;
         font-weight: bold;
         color: rgb(191, 191, 191);
       }
-      .div2:hover
+      a:link
       {
-        background-color: rgb(79, 79, 79);
+        color: rgb(191, 191, 191);
+      }
+      a:visited
+      {
+        color: rgb(159, 159, 159);
       }
     </style>
+    <title>
+      Chrome Antoplay Demo
+    </title>
   </head>
   <body>
     <audio id="divAudio">
@@ -92,12 +99,12 @@
       </div>
     </div>
 
-    <div class="div2" onmousemove="playMusic()">
+    <div class="div2">
       <div class="center1">
-        <center>[Plain div]</center>
+        <center>Music: <a href="https://dova-s.jp/bgm/play14133.html">華めく王都</a></center>
       </div>
       <div class="center2">
-        <center>Hover over me!</center>
+        <center>Credit: <a href="https://dova-s.jp/_contents/author/profile024.html">KK on DOVA-SYNDROME</a></center>
       </div>
     </div>
   </body>
